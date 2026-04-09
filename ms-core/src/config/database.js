@@ -6,10 +6,10 @@ dotenv.config()
 const sequelize = new Sequelize(
     process.env.DB_NAME,
     process.env.DB_USER,
-    procces.env.DB_PASSWORD,
+    process.env.DB_PASSWORD,
     {
         host: process.env.DB_HOST,
-        port: procces.env.DB_PORT,
+        port: process.env.DB_PORT,
         dialect: 'postgres',
         logging: false
     }
